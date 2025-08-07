@@ -1,0 +1,30 @@
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            margin: 20px;
+        }
+
+        body {
+            width: 100%;
+            text-align: center;
+        }
+
+        button {
+            margin: 0px 10px;
+        }
+
+        .table {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        td,
+        th {
+            padding: 10px 20px;
+        }

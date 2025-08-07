@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Student Manager</h1>
+    <label for="rname">Enter the Roll Number of Student : </label>
+    <input type="number" id="rname"><br><br>
+    <label for="name">Enter the name of Student : </label>
+    <input type="text" id="name"><br><br>
+    <label for="age">Enter the age of Student : </label>
+    <input type="number" id="age"><br><br>
+    <label for="fname">Enter the Father name of Student : </label>
+    <input type="text" id="fname"><br><br>
+    <label for="subjects">Enter the Marks of subjects:</label><br><br>
+    <label for="firstSub">English:</label>
+    <input type="number" id="firstSub"><br><br>
+    <label for="firstSub">Maths:</label>
+    <input type="number" id="secSub"><br><br>
+    <label for="firstSub">Hindi:</label>
+    <input type="number" id="thirdSub"><br><br>
+    <button type="button" id="add-btn">Add Student</button>
+    <button type="button" id="up-btn">Update Student</button>
+    <button type="button" id="de-btn">Delete Student</button>
+    <br><br>
+    <div class="table">
+        <h1>Student Data</h1>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th colspan="4">Student Details</th>
+                    <th colspan="6">Marks</th>
+                </tr>
+                <tr>
+                    <th>Roll Number</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Father Name</th>
+                    <th>English</th>
+                    <th>Math</th>
+                    <th>Hindi</th>
+                    <th>Average</th>
+                    <th>Max</th>
+                    <th>Pass/Fail</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
